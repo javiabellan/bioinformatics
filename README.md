@@ -1,2 +1,5 @@
-# bioinformatics
-My bioinformatic repo
+# Bioinformatics
+
+### Resources
+- [Rosalind](http://rosalind.info)
+- [readiab](http://readiab.org)
