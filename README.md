@@ -8,6 +8,13 @@
 ## Level 2: Amino acids sequence
 - Data from **Proteins**.
 - 21 letters: **A**, **R**, **N**, **D**, **C**, **Q**, **E**, **G**, **H**, **I**, **L**, **K**, **M**, **F**, **P**, **S**, **T**, **W**, **Y**, **V**
+- Datasets
+  - Kaggle
+    - [400000 protein data set](https://www.kaggle.com/shahir/protein-data-set) (146 MB)
+  - [UniProt databases](https://www.uniprot.org/help/about)
+    - UniProt Knowledgebase (UniProtKB)
+    - UniProt Reference Clusters (UniRef)
+    - [UniProt Archive (UniParc)](https://www.uniprot.org/help/uniparc)
 
 <p align="center"><img width="450" src="img/aminoacids.svg"/></p>
 
