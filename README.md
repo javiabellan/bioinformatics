@@ -27,7 +27,7 @@
 
 
 ## BLAST
-Algoritmo que determina el nivel de similaridad de 2 sequecias. **B**asic **L**ocal **A**lignment **S**earch **T**ool.
+**B**asic **L**ocal **A**lignment **S**earch **T**ool. Algoritmo que determina el **nivel de similaridad de 2 secuencias**.
 
 | Nucleutide BLAST | Protein BLAST |
 |------------------|---------------|
