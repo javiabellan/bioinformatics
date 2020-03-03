@@ -38,11 +38,6 @@
 
 ## DNA as a NLP problem
 
-- **Nucleotide bases** and **amino acids** are characters.
-- **K-mers** and peptides (motifs) are words.
-- **Genes** and gene families are sentences.
-
-
 > ### Paper of using Transformer model with DNA:
 > **[Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences](https://doi.org/10.1101/622803)**
 >
