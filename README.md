@@ -3,6 +3,7 @@
 ## Level 1: Nucleotide bases
 - Data from **DNA** or **RNA**.
 - 4 letters: **A**, **C**, **G**, **T**
+- K-mers: "words" of K-length. Ej. (hexamers), "ATGCATGCA" becomes: ‘ATGCAT’, ‘TGCATG’, ‘GCATGC’, ‘CATGCA’.
 
 ## Level 2: Amino acids
 - Data from **Proteins**.
@@ -14,15 +15,26 @@
 
 ![](https://genetics564.weebly.com/uploads/8/6/5/7/865764/101986_orig.gif)
 
-## K-mers
-if I use "words" of length 6 (hexamers), "ATGCATGCA" becomes: ‘ATGCAT’, ‘TGCATG’, ‘GCATGC’, ‘CATGCA’.
-
-def getKmers(sequence, size):
-    return [sequence[x:x+size].lower() for x in range(len(sequence) - size + 1)]
+## Level 4: Gen Ontology
+- **GO**
+- **Uniprot**
 
 
+## Reactoma
+**Grafo de interacción** de proteinas.
 
-# <center> Bioinformatics practice
+## BLAST
+Algoritmo que determina el nivel de similaridad de 2 sequecias.
+
+| Nucleutide BLAST | Protein BLAST |
+|------------------|---------------|
+| ![](https://blast.ncbi.nlm.nih.gov/images/nucleutide-blast-cover.png) | ![](https://blast.ncbi.nlm.nih.gov/images/protein-blast-cover.png) |
+
+| Nucleutide BLAST | Protein BLAST |
+|------------------|---------------|
+| <img width="200" src="https://blast.ncbi.nlm.nih.gov/images/nucleutide-blast-cover.png"/> | <img width="200" src="https://blast.ncbi.nlm.nih.gov/images/protein-blast-cover.png"/> |
+
+---
 
 ## DNA as a NLP problem
 
