@@ -45,6 +45,13 @@
 
 ## DNA as a NLP problem
 
+
+- Count vectorizers with n-grams
+- 1D convolution
+- Recurrent
+  - [LSTM with keras](https://www.kaggle.com/javiabellan/protein-sequence-family-classification)
+- Attenetion
+
 > ### Paper of using Transformer model with DNA:
 > **[Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences](https://doi.org/10.1101/622803)**
 >
