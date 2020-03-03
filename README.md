@@ -1,9 +1,18 @@
-# <center> Bioinformatics theory
+<h1 align="center">Bioinformatics</h1>
 
-## Nucleotide bases: A, C, G, T 
+## Level 1: Nucleotide bases
+- Data from **DNA** or **RNA**.
+- 4 letters: **A**, **C**, **G**, **T**
 
-## Amino acids
+## Level 2: Amino acids
+- Data from **Proteins**.
+- 21 letters: **A**, **R**, **N**, **D**, **C**, **Q**, **E**, **G**, **H**, **I**, **L**, **K**, **M**, **F**, **P**, **S**, **T**, **W**, **Y**, **V**
+
 ![](img/aminoacids.svg)
+
+## Level 3: Domains of proteins
+
+![](https://genetics564.weebly.com/uploads/8/6/5/7/865764/101986_orig.gif)
 
 ## K-mers
 if I use "words" of length 6 (hexamers), "ATGCATGCA" becomes: ‘ATGCAT’, ‘TGCATG’, ‘GCATGC’, ‘CATGCA’.
