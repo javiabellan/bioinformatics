@@ -45,21 +45,22 @@
 
 ## DNA as a NLP problem
 
-
 - Count vectorizers with n-grams
 - 1D convolution
 - Recurrent
-  - [LSTM with keras](https://www.kaggle.com/javiabellan/protein-sequence-family-classification)
-- Attenetion
+  - [Kaggle: LSTM with keras](https://www.kaggle.com/danofer/protein-sequence-family-classification)
+  - [UDSMProt](https://github.com/nstrodt/UDSMProt)
+- Transformer
+  - **[Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences](https://doi.org/10.1101/622803)**: After training the Transformer algorithm to process amino acid sequences, researchers looked at the embedding learned by the model. Above all, they found out that the neural network had built a complex representation of the input sequences. This in turn reflects their biological properties such as activity, stability, structure, binding etc. In other words, the deep learning algorithm learned important biochemical properties characterising the different amino acids and proteins, all by itself, without any supervision.
+  - [Illustrating the Reformer](https://towardsdatascience.com/illustrating-the-reformer-393575ac6ba0)
+  - [Advices for training transformers](https://twitter.com/Eric_Wallace_/status/1235616760595791872)
 
-> ### Paper of using Transformer model with DNA:
-> **[Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences](https://doi.org/10.1101/622803)**
->
->  They have trained a neural network that **predicts masked amino acids** on 250 million sequences.  The total number of amino acids has been set at 86 billion. To reach their goal, they used a powerful model architecture called the Transformer.
->
-> After training the Transformer algorithm to process amino acid sequences, researchers looked at the embedding learned by the model. Above all, they found out that the neural network had built a complex representation of the input sequences. This in turn reflects their biological properties such as activity, stability, structure, binding etc. In other words, the deep learning algorithm learned important biochemical properties characterising the different amino acids and proteins, all by itself, without any supervision.
->
-> Source: https://amethix.com/deep-learning-in-biology
+## DNA as a Vision problem
+- 3D protein
+
+### Andrés Solution to [Predicting Molecular Properties](https://www.kaggle.com/c/champs-scalar-coupling)
+- [**Summary**](https://www.kaggle.com/c/champs-scalar-coupling/discussion/106468)
+- [**Code**](https://github.com/antorsae/champs-scalar-coupling)
 
 
 ### Python packages
