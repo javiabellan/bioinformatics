@@ -16,32 +16,34 @@
     - UniProt Reference Clusters (UniRef)
     - [UniProt Archive (UniParc)](https://www.uniprot.org/help/uniparc)
 
-<p align="center"><img width="450" src="img/aminoacids.svg"/></p>
+<p align="center"><img width="400" src="img/aminoacids.svg"/></p>
 
 
 ## Level 3: Domains of proteins
 
-<p align="center"><img width="450" src="https://genetics564.weebly.com/uploads/8/6/5/7/865764/101986_orig.gif"/></p>
+<p align="center"><img width="400" src="https://genetics564.weebly.com/uploads/8/6/5/7/865764/101986_orig.gif"/></p>
 
+## Level 4: 3D shape of proteins
+![](/img/protein-process.svg)
 
-## Level 4: Gen Ontology
+## Level 5: Gen Ontology
 - **GO**
 - **Uniprot**
-
 
 ## Reactoma
 **Grafo de interacción** de proteinas.
 
 
-## BLAST
-**B**asic **L**ocal **A**lignment **S**earch **T**ool. Algoritmo que determina el **nivel de similaridad de 2 secuencias**.
-
-| Nucleutide BLAST | Protein BLAST |
-|------------------|---------------|
-| [![](img/nucleutide-blast.png)]() | ![](img/protein-blast.png) |
+### BLAST
+**B**asic **L**ocal **A**lignment **S**earch **T**ool. Algoritmo que determina el **nivel de similaridad de 2 secuencias**. Puede usarse:
+- A nivel de secuencias de nucleótidos (Nucleutide BLAST)
+- A nivel de secuencias de aminoácidos (Protein BLAST)
 
 
 ---
+
+<h1 align="center">Deep Learning Bioinformatics</h1>
+
 
 ## Step 1: Traditional methods
 - Count vectorizers with n-grams
