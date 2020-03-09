@@ -24,8 +24,7 @@
 - Data:
   - 24 million UniRef50 sequences
 - Model
-  - **mLSTM**: Recurrent Neural Network (RNN)
-  - 1900 hidden neurons
+  - [**mLSTM**](https://arxiv.org/abs/1609.07959): 1 layer **m**ultiplicative **LSTM** of 1900 hidden neurons.
   - **Unsupervised** train: Predict the next amino-acid (cross-entropy loss)
 - UniRep
   - A fixed-length (1900) vector representation of the input sequence.
