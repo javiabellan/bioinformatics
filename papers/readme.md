@@ -33,4 +33,10 @@
 - [**Code**](https://github.com/churchlab/UniRep)
 
 ## [UDSMProt](https://www.biorxiv.org/content/10.1101/704874v2.full.pdf) (September 2019) `AWD-LSTM` `Unsupervised`
+- Data:
+  - Swiss-Prot database
+- Model:
+  - [**AWD-LSTM**](https://arxiv.org/abs/1708.02182), which is, at its heart, a 3-layer LSTM regularized by different kinds of dropouts (embedding dropout, input dropout, weight dropout, hidden state dropout, output layer dropout).
+  - Step 1: Unsupervised training (predict next aminoacid)
+  - Step 2: Replace last layers and do clasification tasks.
 - [**Code**](https://github.com/nstrodt/UDSMProt)
