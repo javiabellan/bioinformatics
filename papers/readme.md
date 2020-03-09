@@ -1,24 +1,7 @@
 <h1 align="center">Papers</h1>
 
-## UniRep
-- Title: Unified rational protein engineering with sequence-based deep representation learning
-- Apply deep learning to unlabeled amino-acid sequences.
-- Data:
-  - 24 million UniRef50 sequences
-- Model
-  - **mLSTM**: Recurrent Neural Network (RNN)
-  - 1900 hidden neurons
-  - **Unsupervised** train: Predict the next amino-acid (cross-entropy loss)
-- UniRep
-  - A fixed-length (1900) vector representation of the input sequence.
-  - Obtained by averaging intermediate mLSTM hidden states.
-  - A new model (a sparse linear regression or random forest) enables supervised learning on diverse protein informatics tasks.
-- Detect the fundamental features of a protein.
-  - The stability of natural and de novo designed proteins
-  - The quantitative function of molecularly diverse mutants.
-- [Code](https://github.com/churchlab/UniRep)
 
-## [DeepDom](https://psb.stanford.edu/psb-online/proceedings/psb19/jiang.pdf)
+## [DeepDom](https://psb.stanford.edu/psb-online/proceedings/psb19/jiang.pdf) (January 2019)
 - Task:
   - Predict protein domain boundary from protein sequence.
   - This is usually an early step to understand protein function and structure.
@@ -29,5 +12,26 @@
 - Model:
   - Input
   - **4 layers of bidirectional LSTM**
-  - [Code](https://github.com/yuexujiang/DeepDom)
+- [**Code**](https://github.com/yuexujiang/DeepDom)
 
+
+## UniRep (March 2019)
+- Task:
+  - Apply deep learning to unlabeled amino-acid sequences.
+  - Detect the fundamental features of a protein in unsuperervised way
+    - The stability of natural and de novo designed proteins
+    - The quantitative function of molecularly diverse mutants.
+- Data:
+  - 24 million UniRef50 sequences
+- Model
+  - **mLSTM**: Recurrent Neural Network (RNN)
+  - 1900 hidden neurons
+  - **Unsupervised** train: Predict the next amino-acid (cross-entropy loss)
+- UniRep
+  - A fixed-length (1900) vector representation of the input sequence.
+  - Obtained by averaging intermediate mLSTM hidden states.
+  - A new model (a sparse linear regression or random forest) enables supervised learning on diverse protein informatics tasks.
+- [**Code**](https://github.com/churchlab/UniRep)
+
+## [UDSMProt](https://www.biorxiv.org/content/10.1101/704874v2.full.pdf) (September 2019)
+- [**Code**](https://github.com/nstrodt/UDSMProt)
