@@ -1,7 +1,7 @@
 <h1 align="center">Papers</h1>
 
 
-## [DeepDom](https://psb.stanford.edu/psb-online/proceedings/psb19/jiang.pdf) (January 2019)
+## [DeepDom](https://psb.stanford.edu/psb-online/proceedings/psb19/jiang.pdf) (January 2019) `LSTM`
 - Task:
   - Predict protein domain boundary from protein sequence.
   - This is usually an early step to understand protein function and structure.
@@ -15,7 +15,7 @@
 - [**Code**](https://github.com/yuexujiang/DeepDom)
 
 
-## UniRep (March 2019)
+## UniRep (March 2019) `mLSTM` `Unsupervised`
 - Task:
   - Apply deep learning to unlabeled amino-acid sequences.
   - Detect the fundamental features of a protein in unsuperervised way
@@ -33,5 +33,5 @@
   - A new model (a sparse linear regression or random forest) enables supervised learning on diverse protein informatics tasks.
 - [**Code**](https://github.com/churchlab/UniRep)
 
-## [UDSMProt](https://www.biorxiv.org/content/10.1101/704874v2.full.pdf) (September 2019)
+## [UDSMProt](https://www.biorxiv.org/content/10.1101/704874v2.full.pdf) (September 2019) `AWD-LSTM` `Unsupervised`
 - [**Code**](https://github.com/nstrodt/UDSMProt)
