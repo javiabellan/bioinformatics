@@ -40,3 +40,12 @@
   - Step 1: Unsupervised training (predict next aminoacid)
   - Step 2: Replace last layers and do clasification tasks.
 - [**Code**](https://github.com/nstrodt/UDSMProt)
+
+
+## Transformer
+
+## Alphafold
+
+## 3D
+
+## [ProteinGAN](https://www.biorxiv.org/content/10.1101/789719v2)
