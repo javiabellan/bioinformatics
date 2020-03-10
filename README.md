@@ -90,6 +90,8 @@ Unsupervised learning is a pre-task that allows the neural net to learn from lot
 - Andrés Solution to [Predicting Molecular Properties](https://www.kaggle.com/c/champs-scalar-coupling)
   - [**Summary**](https://www.kaggle.com/c/champs-scalar-coupling/discussion/106468)
   - [**Code**](https://github.com/antorsae/champs-scalar-coupling)
+- Choose one from Hugging face
+- [Train with fastai](https://towardsdatascience.com/fastai-with-transformers-bert-roberta-xlnet-xlm-distilbert-4f41ee18ecb2)
 
 ## Step 4: 3D Proteins
 - 3D protein
