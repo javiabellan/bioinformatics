@@ -59,7 +59,7 @@
 
 ## 1D convolutions
 - [Ultra-Deep Learning Model](https://arxiv.org/abs/1609.00680) (2016)
-- [AlphaFold](https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientific-discovery)
+- [AlphaFold](https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientific-discovery): From seq -> predict 3D shape
   - [Paper in Nature](https://www.nature.com/articles/s41586-019-1923-7.epdf?author_access_token=Z_KaZKDqtKzbE7Wd5HtwI9RgN0jAjWel9jnR3ZoTv0MCcgAwHMgRx9mvLjNQdB2TlQQaa7l420UCtGo8vYQ39gg8lFWR9mAZtvsN_1PrccXfIbc6e-tGSgazNL_XdtQzn1PHfy21qdcxV7Pw-k3htw%3D%3D) (Jan 2020)
   - [Paper in Proteins](https://onlinelibrary.wiley.com/doi/epdf/10.1002/prot.25834) (Sep 2019)
   
@@ -67,8 +67,11 @@
 
 
 ## Recurrent Neural Nets (RNN, LSTM, ...)
+- [DeepDom](https://psb.stanford.edu/psb-online/proceedings/psb19/jiang.pdf) (January 2019) `LSTM`
+- UniRep (March 2019) `mLSTM` `Unsupervised`
+- [UDSMProt](https://www.biorxiv.org/content/10.1101/704874v2.full.pdf) (September 2019) `AWD-LSTM` `Unsupervised`
 - [Kaggle: LSTM with keras](https://www.kaggle.com/danofer/protein-sequence-family-classification)
-- [UDSMProt](https://github.com/nstrodt/UDSMProt)
+
 
   
 ## Step 3: Transformers
