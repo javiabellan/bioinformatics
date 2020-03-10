@@ -53,13 +53,18 @@
 <h1 align="center">🧠 Deep Learning</h1>
 
 
-## Step 1: Traditional methods
+## Traditional NLP methods
 - Count vectorizers with n-grams
-- 1D convolution
-- Read [AlphaFold](https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientific-discovery)
+- TF-IDF
+
+## 1D convolutions
+- [Ultra-Deep Learning Model](https://arxiv.org/abs/1609.00680) (2016)
+- [AlphaFold](https://deepmind.com/blog/article/AlphaFold-Using-AI-for-scientific-discovery)
+
+<p align="center"><img width="600" src="https://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=10.1371/journal.pcbi.1005324.g001"/></p>
 
 
-## Step 2: Recurrent methods
+## Recurrent Neural Nets (RNN, LSTM, ...)
 - [Kaggle: LSTM with keras](https://www.kaggle.com/danofer/protein-sequence-family-classification)
 - [UDSMProt](https://github.com/nstrodt/UDSMProt)
 
