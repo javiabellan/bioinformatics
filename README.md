@@ -1,28 +1,27 @@
 <h1 align="center">📚 Bioinformatics Theory</h1>
 
-## Level 1: Nucleotide sequence
+### Level 1: Nucleotide sequence
 - Data from **DNA** or **RNA**.
 - 4 letters: **A**, **C**, **G**, **T**
-- K-mers: "words" of K-length. Ej. (hexamers), "ATGCATGCA" becomes: ‘ATGCAT’, ‘TGCATG’, ‘GCATGC’, ‘CATGCA’.
 
-## Level 2: Amino acids sequence
+### Level 2: Amino acids sequence
 - Data from **Proteins**.
 - 21 letters: **A**, **R**, **N**, **D**, **C**, **Q**, **E**, **G**, **H**, **I**, **L**, **K**, **M**, **F**, **P**, **S**, **T**, **W**, **Y**, **V**
 
 <p align="center"><img width="400" src="img/aminoacids.svg"/></p>
 
-## Level 3: Domains of proteins
+### Level 3: Domains of proteins
 
 <p align="center"><img width="400" src="https://genetics564.weebly.com/uploads/8/6/5/7/865764/101986_orig.gif"/></p>
 
-## Level 4: 3D shape of proteins
+### Level 4: 3D shape of proteins
 ![](/img/protein-process.svg)
 
-## Level 5: Gen Ontology
+### Level 5: Gen Ontology
 - **GO**
 - **Uniprot**
 
-## Reactoma
+### Reactoma
 **Grafo de interacción** de proteinas.
 
 ### BLAST
