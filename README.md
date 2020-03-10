@@ -85,7 +85,7 @@ Unsupervised learning is a pre-task that allows the neural net to learn from lot
 - **Read [Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences](https://doi.org/10.1101/622803)**: After training the Transformer algorithm to process amino acid sequences, researchers looked at the embedding learned by the model. Above all, they found out that the neural network had built a complex representation of the input sequences. This in turn reflects their biological properties such as activity, stability, structure, binding etc. In other words, the deep learning algorithm learned important biochemical properties characterising the different amino acids and proteins, all by itself, without any supervision.
 - [Illustrating the Reformer](https://towardsdatascience.com/illustrating-the-reformer-393575ac6ba0)
 - [ELECTRA](https://openreview.net/pdf?id=r1xMH1BtvB): Otra forma de hacer el aprendizaje no supervisado
-- [Advices for training transformers](https://twitter.com/Eric_Wallace_/status/1235616760595791872)
+- Advices for training transformers: Train Large, Then Compress [twitt](https://twitter.com/Eric_Wallace_/status/1235616760595791872), [blog](https://bair.berkeley.edu/blog/2020/03/05/compress/), [paper](https://arxiv.org/abs/2002.11794)
 - [Kaggle winner solution to Google’s QUEST Q&A Labeling](https://medium.com/kaggle-blog/the-3-ingredients-to-our-success-winners-dish-on-their-solution-to-googles-quest-q-a-labeling-c1a63014b88): BERT, RoBERTa, BART
 - Andrés Solution to [Predicting Molecular Properties](https://www.kaggle.com/c/champs-scalar-coupling)
   - [**Summary**](https://www.kaggle.com/c/champs-scalar-coupling/discussion/106468)
