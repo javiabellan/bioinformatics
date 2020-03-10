@@ -1,4 +1,4 @@
-<h1 align="center">Bioinformatics</h1>
+<h1 align="center">📚 Bioinformatics Theory</h1>
 
 ## Level 1: Nucleotide sequence
 - Data from **DNA** or **RNA**.
@@ -8,16 +8,8 @@
 ## Level 2: Amino acids sequence
 - Data from **Proteins**.
 - 21 letters: **A**, **R**, **N**, **D**, **C**, **Q**, **E**, **G**, **H**, **I**, **L**, **K**, **M**, **F**, **P**, **S**, **T**, **W**, **Y**, **V**
-- Datasets
-  - Kaggle
-    - [400000 protein data set](https://www.kaggle.com/shahir/protein-data-set) (146 MB)
-  - [UniProt databases](https://www.uniprot.org/help/about)
-    - UniProt Knowledgebase (UniProtKB)
-    - UniProt Reference Clusters (UniRef)
-    - [UniProt Archive (UniParc)](https://www.uniprot.org/help/uniparc)
 
 <p align="center"><img width="400" src="img/aminoacids.svg"/></p>
-
 
 ## Level 3: Domains of proteins
 
@@ -33,16 +25,33 @@
 ## Reactoma
 **Grafo de interacción** de proteinas.
 
-
 ### BLAST
 **B**asic **L**ocal **A**lignment **S**earch **T**ool. Algoritmo que determina el **nivel de similaridad de 2 secuencias**. Puede usarse:
 - A nivel de secuencias de nucleótidos (Nucleutide BLAST)
 - A nivel de secuencias de aminoácidos (Protein BLAST)
 
+---
+
+<h1 align="center">🗄 Datasets</h1>
+
+
+- [**UniProt**](https://www.uniprot.org/help/about): Secuencias de aminoácidos.
+  - **UniProtKB**: UniProt Knowledgebase
+    - **Swiss-Prot**: Manually annotated and reviewed (561.911)
+    - **TrEMBL**: Automatically annotated and not reviewed. (177.754.527)
+  - **UniRef**: UniProt Reference Clusters
+    - **UniRef50**: 50% (39,178,216)
+    - **UniRef90**: 90% (107,153,647)
+    - **UniRef100**: 100% (216,491,817)
+  - [**UniParc**](https://www.uniprot.org/help/uniparc): UniProt Archive
+- [**Pfam**](http://pfam.xfam.org): Secuencias aminoácidos + dominios.
+- [**Protein data bank**](https://www.rcsb.org): Muy pocas con respecto a UniProt. A parte de la secuencia contiene metadatos y repr. 3D.
+  - En kaggle: [400000 protein data set](https://www.kaggle.com/shahir/protein-data-set) (146 MB)
+
 
 ---
 
-<h1 align="center">Deep Learning Bioinformatics</h1>
+<h1 align="center">🧠 Deep Learning</h1>
 
 
 ## Step 1: Traditional methods
