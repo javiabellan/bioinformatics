@@ -78,7 +78,7 @@ Unsupervised learning is a pre-task that allows the neural net to learn from lot
 - UniRep (March 2019) `mLSTM` `Unsupervised`
 - [UDSMProt](https://www.biorxiv.org/content/10.1101/704874v2.full.pdf) (September 2019) `AWD-LSTM` `Unsupervised`
 - [Kaggle: LSTM with keras](https://www.kaggle.com/danofer/protein-sequence-family-classification)
-
+- [Character-Level LSTM in PyTorch](https://www.kaggle.com/francescapaulin/character-level-lstm-in-pytorch)
 
   
 ## Step 3: Transformers
