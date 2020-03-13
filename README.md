@@ -6,8 +6,8 @@
 
 ### Level 2: Amino acids sequence
 - Data from **Proteins**.
-- 21 letters: **A**, **R**, **N**, **D**, **C**, **Q**, **E**, **G**, **H**, **I**, **L**, **K**, **M**, **F**, **P**, **S**, **T**, **W**, **Y**, **V**
-
+- **IUPAC**: 20 protein letters. The 20 standard amino acids: **A**, **R**, **N**, **D**, **C**, **Q**, **E**, **G**, **H**, **I**, **L**, **K**, **M**, **F**, **P**, **S**, **T**, **W**, **Y**, **V**.
+- **Extended IUPAC**: 25 protein letters. In addition to the standard 20 amino acids, this includes: **B**, **X**, **Z**, **J**, **U**, **O**.
 <p align="center"><img width="400" src="img/aminoacids.svg"/></p>
 
 ### Level 3: Domains of proteins
