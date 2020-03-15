@@ -59,6 +59,21 @@ Read about [Ramachandran plot](https://en.wikipedia.org/wiki/Ramachandran_plot)
 <h1 align="center">🧠 Deep Learning</h1>
 
 
+## Unsupervised learning for sequences
+Unsupervised learning is a pre-task that allows the neural net to learn from lot of unlabeled data.
+- **Language Model (LM)**: Predict next aminoacid. (used in RNNs)
+- **Masked Language Model (MLM)**: Predict hidden aminoacids. (introduced in BERT paper)
+- **Replaced Token Detection**: Is this aminoacid real or fake? (introduced in [ELECTRA](https://openreview.net/pdf?id=r1xMH1BtvB))
+
+
+## Supervised tasks
+
+- Secondary structure prediction
+- Contact prediction: Predic in a pair of aminocis are within 8 angstroms of each other.
+- Remote homology detection.
+
+![](https://www.biorxiv.org/content/biorxiv/early/2019/06/20/676825/F1.large.jpg)
+
 ## Traditional NLP methods
 - Count vectorizers with n-grams
 - TF-IDF
@@ -72,11 +87,7 @@ Read about [Ramachandran plot](https://en.wikipedia.org/wiki/Ramachandran_plot)
 <p align="center"><img width="600" src="https://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=10.1371/journal.pcbi.1005324.g001"/></p>
 
 
-## Unsupervised learning for sequences
-Unsupervised learning is a pre-task that allows the neural net to learn from lot of unlabeled data.
-- **Language Model (LM)**: Predict next aminoacid. (used in RNNs)
-- **Masked Language Model (MLM)**: Predict hidden aminoacids. (introduced in BERT paper)
-- **Replaced Token Detection**: Is this aminoacid real or fake? (introduced in [ELECTRA](https://openreview.net/pdf?id=r1xMH1BtvB))
+
 
 ## Recurrent Neural Nets (RNN, LSTM, ...)
 - [DeepDom](https://psb.stanford.edu/psb-online/proceedings/psb19/jiang.pdf) (January 2019) `LSTM`
