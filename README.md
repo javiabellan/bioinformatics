@@ -13,6 +13,9 @@
 <p align="center"><img width="400" src="img/aminoacids.svg"/></p>
 
 ### Level 3: Domains of proteins
+- Domains are sequences that are evolutionarily conserved, and as such have a well-defined fold and function.
+- Pfam is a database of  32,207,059 protein domains used extensively in bioinformatics.
+- Sequences in Pfam are clustered into evolutionarily-related groups called families.
 
 <p align="center"><img width="400" src="https://genetics564.weebly.com/uploads/8/6/5/7/865764/101986_orig.gif"/></p>
 
