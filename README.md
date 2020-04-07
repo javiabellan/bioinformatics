@@ -98,6 +98,7 @@ Unsupervised learning is a pre-task that allows the neural net to learn from lot
 
   
 ## Step 3: Transformers
+- [Protein-Structure-Prediction (weights and biases)](https://app.wandb.ai/koes-group/protein-transformer/reports/Evaluating-the-Impact-of-Sequence-Convolutions-and-Embeddings-on-Protein-Structure-Prediction--Vmlldzo2OTg4Nw)
 - **Read [Biological structure and function emerge from scaling unsupervised learning to 250 million protein sequences](https://doi.org/10.1101/622803)**: After training the Transformer algorithm to process amino acid sequences, researchers looked at the embedding learned by the model. Above all, they found out that the neural network had built a complex representation of the input sequences. This in turn reflects their biological properties such as activity, stability, structure, binding etc. In other words, the deep learning algorithm learned important biochemical properties characterising the different amino acids and proteins, all by itself, without any supervision.
 - [Illustrating the Reformer](https://towardsdatascience.com/illustrating-the-reformer-393575ac6ba0)
 - [ELECTRA](https://openreview.net/pdf?id=r1xMH1BtvB): Otra forma de hacer el aprendizaje no supervisado
