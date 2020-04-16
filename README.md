@@ -1,5 +1,7 @@
 <h1 align="center">📚 Bioinformatics Theory</h1>
 
+## https://github.com/yangkky/Machine-learning-for-proteins
+
 ### Level 1: Nucleotide sequence
 - Data from **DNA** or **RNA**.
 - 4 letters: **A**, **C**, **G**, **T**
